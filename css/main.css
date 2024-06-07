@@ -4154,11 +4154,12 @@ h3 + .section_header,
 	font-size: 30px;
 }
 
-.section_header + p {
+.container_services_description > p {
 	margin: 0 0 45px;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #b4b4b4;
+	text-align: justify;
 }
 
 .section_header.big + p {
@@ -4971,6 +4972,28 @@ body.boxed {
 
 .fontsize_18 {
 	font-size: 18px;
+}
+
+.fontsize_12 {
+	font-size: 11px;
+}
+
+.profile {
+	text-align: justify;
+	width: 561px;
+}
+
+.profile_description {
+	text-align: justify;
+}
+
+.container-profile {
+	display: flex;
+    justify-content: center;
+}
+
+.profile_crp {
+	font-weight: bold;
 }
 
 .fontsize_20 {
