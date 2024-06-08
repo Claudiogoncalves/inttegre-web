@@ -4155,11 +4155,24 @@ h3 + .section_header,
 }
 
 .container_services_description > p {
-	margin: 0 0 45px;
+	margin: 0 0 12px;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #b4b4b4;
 	text-align: justify;
+}
+
+.container_sevices {
+	margin-top: 40px !important;
+}
+
+.container-info {
+	padding-top: 0px !important;
+}
+
+.profile-image {
+	object-fit: fill;
+	height: 400px!important;
 }
 
 .section_header.big + p {
