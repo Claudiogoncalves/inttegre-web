@@ -4997,7 +4997,20 @@ body.boxed {
 }
 
 .profile_description {
-	text-align: justify;
+	text-align: center;
+}
+
+.container-border-botom {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.content-border-bottom {
+	border-bottom: 1px solid #91d0cc;
+    width: 125px;
 }
 
 .container-profile {
